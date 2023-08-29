@@ -24,4 +24,4 @@ This README provides an overview of the project, installation instructions, usag
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Lorenz2202/your-repo.git
+   git clone https://github.com/Lorenz2202/NUFVLRC_RFIDBasedLMS.git
