@@ -71,15 +71,39 @@ if ($bn != NULL) {
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Bulldogs Book Express</title>
-    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="navbar.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div id="banner">
-        <span class="head">Bulldogs Book Express</span><br />
-        <h1><marquee class="clg" direction="right" behavior="alternate" scrollamount="1">BULLDOGS BOOK EXPRESS</marquee></h1>
-    </div>
-    <br />
+    
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+				<li class="nav-item">
+                	<a class="nav-link" href="home.php"><i class="fas fa-tachometer-alt"></i>Home</a>
+            	</li>	                
+                <li class="nav-item">
+                    <a class="nav-link" href="view_profile.php"><i class="fas fa-tachometer-alt"></i>View Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="edit_profile.php"><i class="far fa-address-book"></i>Edit Profile</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="issueBook.php"><i class="far fa-clone"></i>Issue Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="request.php"><i class="far fa-calendar-alt"></i>Request</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php"><i class="far fa-chart-bar"></i>Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div align="center">
         <div id="wrapper">
@@ -89,7 +113,6 @@ if ($bn != NULL) {
             <br />
             <form method="post" action="">
                 <table border="0" class="table" cellpadding="10" cellspacing="10">
-
                     <tr>
                         <td></td>
                         <td colspan="2" align="center" class="msg"><?php echo $msg; ?></td>
@@ -144,6 +167,10 @@ if ($bn != NULL) {
 
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="nav.js"></script>
+
 </body>
 
 </html>
