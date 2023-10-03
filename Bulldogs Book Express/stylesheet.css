@@ -5,7 +5,9 @@
 }
 
 body {
-	background: #f6f5f7;
+	background-image: url('download.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,6 +16,7 @@ body {
 	height: 100vh;
 	margin: -20px 0 50px;
 }
+
 
 h1 {
 	font-weight: bold;

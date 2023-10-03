@@ -58,7 +58,9 @@ mysqli_close($conn);
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
 <body>
-  <h2>BULLDOGS BOOK EXPRESS</h2>
+  <div class="school-logo">
+          <img src="NU 2 LINER_OB.png" alt="School Logo" width="350px" height="auto" style="float: left; margin-right: 10px;">
+  </div>
   <div class="container" id="container">
     <div class="form-container sign-up-container">
       <form action="#">
