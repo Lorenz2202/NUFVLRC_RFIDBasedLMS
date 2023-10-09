@@ -32,7 +32,7 @@ if(!isset($_SESSION['aid']))
 <br />
 <form method="post" action="">
 <table border="0" class="table" cellpadding="10" cellspacing="10">
-<tr style="background-color:#6fe2f1" ><td>Book RFID</td><td>Book Name</td><td>Book Author</td></tr>
+<tr style="background-color:#1fb0f5" ><td>Book RFID</td><td>Book Name</td><td>Book Author</td></tr>
 <?php
 	$x=mysqli_query($conn,"SELECT * FROM books where rfid not in (select bid from issue)");
 	while($y=mysqli_fetch_array($x))

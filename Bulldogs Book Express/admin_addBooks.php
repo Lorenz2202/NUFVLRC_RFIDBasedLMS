@@ -64,13 +64,14 @@ if($bn!=NULL && $au!=NULL)
 <span class="SubHead">Add Books in Library</span>
 <br />
 <br />
+
 <form method="post" action="">
-<table border="0" class="table" cellpadding="10" cellspacing="10">
+<table border="0" class="table" cellpadding="10" cellspacing="10"> 
 <tr><td class="msg" align="center" colspan="2"><?php echo $msg;?></td></tr>
 <tr><td class="labels">RFID No: </td><td><input type="text" name="rfid" placeholder="Enter RFID No" size="25" value= "<?php echo $row ['rfid']; ?>" class="fields" required="required"  /></td></tr>
 <tr><td class="labels">Book Name : </td><td><input type="text" name="name" placeholder="Enter Book Name" size="25" class="fields" required="required"  /></td></tr>
 <tr><td class="labels">Author Name: </td><td><input type="text" name="auth" placeholder="Enter Author Name" size="25" class="fields" required="required"  /></td></tr>
-<tr><td colspan="2" align="center"><input type="submit" value="ADD BOOK" class="fields" /></td></tr>
+<tr style="background-color:#1fb0f5" ><td colspan="2" align="center"><input type="submit" value="ADD BOOK" class="fields" /></td></tr>
 </table>
 </form>
 <br />

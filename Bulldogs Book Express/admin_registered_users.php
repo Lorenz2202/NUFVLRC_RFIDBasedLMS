@@ -65,8 +65,8 @@ if(!isset($_SESSION['aid']))
 <br />
 <br />
 <form method="post" action="">
-<table border="0" class="table" cellpadding="10" cellspacing="10">
-<tr style="background-color:#6fe2f1" ><td>Student ID</td><td>Student Name</td><td>Branch</td><td>Semester</td><td>Gmail</td></tr>
+<table border="2px" class="table" cellpadding="10" cellspacing="40" border-radius = "8px";>
+<tr style="background-color:#1fb0f5" ><td>Student ID</td><td>Student Name</td><td>Branch</td><td>Semester</td><td>Gmail</td></tr>
 <?php
 	$x=mysqli_query($conn,"SELECT * FROM students");
 	while($y=mysqli_fetch_array($x))

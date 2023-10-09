@@ -75,11 +75,12 @@ $b=mysqli_fetch_array($a);
 <br />
 <br />
 
-<table border="0" class="table" cellpadding="10" cellspacing="10">
-<tr><td class="labels">Admin ID &nbsp&nbsp&nbsp: </td><td colspan="2" align="center" class="msg"><?php echo $b['aid'] ;?></td></tr>
-<tr><td class="labels">Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td colspan="2" align="center" class="msg"><?php echo $b['name'];?></td></tr>
-<tr><td class="labels">Contact No &nbsp&nbsp: </td><td colspan="2" align="center" class="msg"><?php echo $b['ContactNumber'];?></td></tr>
-<tr><td class="labels">Gmail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td colspan="2" align="center" class="msg"><?php echo $b['email'];?></td></tr>
+<table border="2px" class="table" cellpadding="10" cellspacing="40" border-radius = "8px";>
+    
+<tr><td class="labels">Admin ID &nbsp&nbsp&nbsp&nbsp&nbsp: </td><td colspan="2" align="left" class="msg"><?php echo $b['aid'] ;?></td></tr>
+<tr><td class="labels">Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td colspan="2" align="left" class="msg"><?php echo $b['name'];?></td></tr>
+<tr><td class="labels">Contact No &nbsp: </td><td colspan="2" align="left" class="msg"><?php echo $b['ContactNumber'];?></td></tr>
+<tr><td class="labels">Gmail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td colspan="2" align="left" class="msg"><?php echo $b['email'];?></td></tr>
 </table>
 
 <br />

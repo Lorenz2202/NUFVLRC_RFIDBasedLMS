@@ -71,8 +71,8 @@ $name=$b['name'];
 <br />
 <br />
 
-<table border="0" class="table" cellpadding="10" cellspacing="10">
-<tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Issued By<br>Student ID</th><th>IssuedDate</th><th>Fine Amount</th><th>Return</th></tr>
+<table border="5px" class="table" cellpadding="40" cellspacing="20" border-radius = "8px";>
+<tr class="labels"><th>Book Name</th><th>Author</th><th>Issued By<br>Student ID</th><th>IssuedDate</th><th>Fine Amount</th><th>Return</th></tr>
 <?php
 $x=mysqli_query($conn,"SELECT * FROM issue");
 while($y=mysqli_fetch_array($x))

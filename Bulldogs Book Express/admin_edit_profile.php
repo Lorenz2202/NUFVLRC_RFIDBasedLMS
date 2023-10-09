@@ -95,12 +95,12 @@ if(!empty($_POST)) {
 <br />
 <br />
 <form method="post" action="">
-<table border="0" class="table" cellpadding="10" cellspacing="10">
+<table border="2px" class="table" cellpadding="10" cellspacing="40" border-radius = "8px";>
 <tr><td class="msg" align="center" colspan="2"><?php echo $msg;?></td></tr>
-<tr><td class="labels">Admin ID &nbsp: </td><td colspan="2" align="center" class="msg"><?php echo $b['aid'] ;?></td></tr>
-<tr><td class="labels">Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td><input type="text" name="name" class="fields" value= "<?php echo $b['name']; ?>" size="25" placeholder="Enter Student ID" required="required" /></td></tr>
-<tr><td class="labels">Contact No &nbsp&nbsp&nbsp: </td><td><input type="text" name="ContactNumber" class="fields" value= "<?php echo $b['ContactNumber']; ?>" size="25" placeholder="Enter Student ID" required="required" /></td></tr>
-<tr><td class="labels">Gmail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td><input type="text" name="email" class="fields" value= "<?php echo $b['email']; ?>" size="25" placeholder="Enter Student ID" required="required" /></td></tr>
+<tr><td class="labels">Admin ID &nbsp&nbsp&nbsp&nbsp&nbsp: </td><td colspan="2" align="center" class="msg"><?php echo $b['aid'] ;?></td></tr>
+<tr><td class="labels">Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td><input type="text" name="name" class="fields" value= "<?php echo $b['name']; ?>" size="25" placeholder="Enter Student ID" required="required" /></td></tr>
+<tr><td class="labels">Contact No &nbsp: </td><td><input type="text" name="ContactNumber" class="fields" value= "<?php echo $b['ContactNumber']; ?>" size="25" placeholder="Enter Student ID" required="required" /></td></tr>
+<tr><td class="labels">Gmail &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: </td><td><input type="text" name="email" class="fields" value= "<?php echo $b['email']; ?>" size="25" placeholder="Enter Student ID" required="required" /></td></tr>
 <tr><td colspan="2" align="center"><input type="submit" value="UPDATE" class="fields" /></td></tr>
 </table>
 </form>

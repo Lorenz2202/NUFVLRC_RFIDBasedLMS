@@ -49,6 +49,21 @@ $name=$b['name'];
     </div>
 </nav>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Search Form -->
+            <form action="search.php" method="POST">
+                <div class="form-group">
+                    <input type="text" name="search_query" class="form-control" placeholder="Search...">
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="nav.js"></script>
 

@@ -71,7 +71,7 @@ $name=$b['name'];
 <br />
 <br />
 
-<table border="0" class="table" cellpadding="10" cellspacing="10">
+<table border="2px" class="table" cellpadding="10" cellspacing="40" border-radius = "8px";>
 <tr class="labels" style="text-decoration:underline;"><th>Book Name</th><th>Author</th><th>Requested by<br>(Student ID) </th></tr>
 <?php
 $x=mysqli_query($conn,"SELECT * FROM request");

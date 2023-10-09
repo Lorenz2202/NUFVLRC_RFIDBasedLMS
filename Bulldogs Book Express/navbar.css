@@ -3,7 +3,18 @@
 
 body{
 	font-family: 'Roboto', sans-serif;
+	background-image: url('download.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
 }
+table{
+	background-color:#ffd41c ;
+	opacity: 0.7;
+	border-radius: 12px;
+	padding: 5px;
+	
+}
+
 * {
 	margin: 0;
 	padding: 0;
